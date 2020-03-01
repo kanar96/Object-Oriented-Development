@@ -20,7 +20,9 @@ public class Movieofthe90s implements MovieIterator{
 		bestMovies.add(movieInfo);
 	}
 	
-	
+	public ArrayList<MovieInfo> getBestMovies() {
+		return bestMovies;
+		}
 
 	public Iterator createIterator() {
 		

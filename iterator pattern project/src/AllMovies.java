@@ -34,7 +34,8 @@ public void showTheMovies() {
 		System.out.println(bestMovies.getYearReleased());
 	}
 	
-	
+	public void main(String[] args) {
+
 	MovieInfo[] array2000sMovies = movies2000s.getBestMovies();
 	
 	System.out.println("Movies of the 2000s");

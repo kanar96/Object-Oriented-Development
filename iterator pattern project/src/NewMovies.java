@@ -22,7 +22,9 @@ public class NewMovies implements MovieIterator{
 		hashKey++;
 	}
 	
-	
+	public Hashtable<Integer, MovieInfo>  getBestMovies() {
+		return bestMovies;
+		}
 	
 	public Iterator createIterator() {
 		
