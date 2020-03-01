@@ -3,7 +3,7 @@ public class RainState implements WeatherState {
    
 
 	public void precip(Weather w) {
-		w.setState(new SleetState());
+		System.out.println("It might be raining, but at least there is no sleet!");
 		
 	}
 

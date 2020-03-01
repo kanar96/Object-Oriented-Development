@@ -1,5 +1,5 @@
 
-public class SleetState {
+public class SleetState implements WeatherState {
 
 
   
